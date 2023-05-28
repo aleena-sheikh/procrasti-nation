@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles.css';
 import React, { useState } from 'react';
 
 function App() {
@@ -14,12 +13,14 @@ function App() {
     setAge(e.target.elements.age.value);
     setRetirementAge(e.target.elements.retirementAge.value);
     setCity(e.target.elements.city.value);
+
+    fetch()
   };
 
   return (
     <div>
       <h1>Welcome to my sdvapp</h1>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="obBox">
         <input type="number" name="income" placeholder="Income" className="formField" /><br />
         <input type="number" name="age" placeholder="Age" className="formField" /><br />
         <input type="number" name="retirementAge" placeholder="Retirement Age" className="formField" /><br />
