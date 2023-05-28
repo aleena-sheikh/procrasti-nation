@@ -1,26 +1,12 @@
-.container {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        height: 100vh;
-        background-color: #f2f2f2;
-      }
-      
-      .form-container {
-        margin-right: 20px;
-      }
-      
-      .form-group {
-        margin-bottom: 15px;
-      }
-      
 
 .obBox {
+position: relative;
+left:0px;
   margin: auto;
   height: fit-content;
   padding: 30px;
   text-align: center;
-  width: 75%;
+  /* width: 75%; */
   max-width: 500px;
 
   box-sizing: border-box;
